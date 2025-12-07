@@ -15,11 +15,12 @@
 }
 
 
+.header{
+  background-color: hsl(0, 0%, 64%);
+  background-position: 0;
+}
 
-
-
-
-.logo {
+#logo {
   flex-direction: column;   /* keeps them one under the other */
   font-size:   2.0rem;
   font-weight  : 700;
@@ -27,7 +28,7 @@
   margin-left: 5%;          /*push from left side */
 }
 
-.slogan {
+#slogan {
   flex-direction: column;   /* keeps them one under the other */
   font-size    : 1.0rem;
   font-weight  : 400;
