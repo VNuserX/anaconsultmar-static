@@ -1,0 +1,36 @@
+:root {
+  --font-mono: ui-monospace,
+               'Cascadia Code',
+               'Fira Code',
+               'JetBrains Mono',
+               Consolas,
+               'Courier New',
+               monospace;
+}
+
+*,
+*::before,
+*::after {
+  font-family: var(--font-mono) !important;
+}
+
+
+
+
+
+
+.logo {
+  flex-direction: column;   /* keeps them one under the other */
+  font-size:   2.0rem;
+  font-weight  : 700;
+  color        : #005a9c;
+  margin-left: 5%;          /*push from left side */
+}
+
+.slogan {
+  flex-direction: column;   /* keeps them one under the other */
+  font-size    : 1.0rem;
+  font-weight  : 400;
+  color        : #333;
+  margin-left: 5%;          /*push from left side */
+}
